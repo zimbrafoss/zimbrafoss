@@ -1,0 +1,6 @@
+ select * from VaEntityExtAttributes where ExtAttrName like '%basepath%'
+
+
+UPDATE VaEntityExtAttributes SET ExtAttrValue ='\\192.168.168.63\Website-Files\VitalAxis-IIS\VITAL-QC-VPLABS' WHERE ExtAttrName='System.BasePath'
+UPDATE VaEntityExtAttributes SET ExtAttrValue ='\\192.168.168.63\Website-Files\VitalAxis-IIS\VITAL-QC-VPLABS\WS\' WHERE ExtAttrName='System.ScheduledReportBasePath'
+UPDATE VaEntityExtAttributes SET ExtAttrValue ='\\192.168.168.63\Website-Files\VitalAxis-IIS\VITAL-QC-VPLABS\Attachments' WHERE ExtAttrName='VOBasePath'
